@@ -7,8 +7,8 @@ class Monster(object):
         self.weapon = weapon
         self.description = description
 
-    def attack(self, dice_roll):
+    def attack(self, dice_roll, target):
         pass
 
-    def defend(self, dice_roll):
+    def defend(self, dice_roll, attacker):
         pass
